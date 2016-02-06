@@ -17,6 +17,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
 
 </head>
@@ -97,27 +98,29 @@
             </ul>
 
             <h3>First Name:</h3>
-            <form action="forms.html">
+            <form action="forms.html" class="form-field">
                 <input type = "text" class="form-control" placeholder="First Name">
-                <a href="#" class=>
-                    <scan class="glyphicon glyphicon-pencil"></scan>
-                </a>
-                <a href="#" class=>
-                    <scan class="glyphicon glyphicon-plus"></scan>
-                </a>
-                <a href="#" class=>
-                    <scan class="glyphicon glyphicon-remove"></scan>
-                </a>
-                <a href="#" class=>
-                    <scan class="glyphicon glyphicon-align-justify"></scan>
-                </a>
+                <div class="nav-icon">
+                    <a href="#" class=>
+                        <scan class="glyphicon glyphicon-pencil"></scan>
+                    </a>
+                    <a href="#" class=>
+                        <scan class="glyphicon glyphicon-plus"></scan>
+                    </a>
+                    <a href="#" class=>
+                        <scan class="glyphicon glyphicon-remove"></scan>
+                    </a>
+                    <a href="#" class=>
+                        <scan class="glyphicon glyphicon-align-justify"></scan>
+                    </a>
+                </div>
             </form>
 
             <h3>last Name:</h3>
 
-            <form action="forms.html">
+            <form action="forms.html" class="form-field">
                 <input type = "text" class="form-control" placeholder="Last Name">
-
+                <div class="nav-icon">
                 <a href="#" class=>
                     <scan class="glyphicon glyphicon-pencil"></scan>
                 </a>
@@ -130,13 +133,14 @@
                 <a href="#" class=>
                     <scan class="glyphicon glyphicon-align-justify"></scan>
                 </a>
-
+                </div>
             </form>
 
             <h3>Date of Birth:</h3>
 
-            <form action="forms.html">
+            <form action="forms.html" class="form-field">
                 <input  type = "date" class="form-control" placeholder="Select Date">
+                <div class="nav-icon">
                 <a href="#" class=>
                     <scan class="glyphicon glyphicon-pencil"></scan>
                 </a>
@@ -149,18 +153,18 @@
                 <a href="#" class=>
                     <scan class="glyphicon glyphicon-align-justify"></scan>
                 </a>
-
+                </div>
 
             </form>
 
             <h3>Gender</h3>
 
-            <form action="forms.html">
-                <label for="genderField" class="control-label"></label>
+            <form action="forms.html" class="form-field">
                     <select id="genderField" class="form-control">
                         <option>Male</option>
                         <option>Female</option>
                     </select>
+                <div class="nav-icon">
                 <a href="#" class=>
                     <scan class="glyphicon glyphicon-pencil"></scan>
                 </a>
@@ -173,12 +177,13 @@
                 <a href="#" class=>
                     <scan class="glyphicon glyphicon-align-justify"></scan>
                 </a>
-
+                </div>
 
             </form>
 
             <h3>Roles:</h3>
 
+            <div class="form-field">
             <div class="checkbox">
                 <label>
                     <input type="checkbox" value="">
@@ -197,6 +202,8 @@
                     User
                 </label>
             </div>
+
+            <div class="nav-icon">
             <a href="#" class=>
                 <scan class="glyphicon glyphicon-pencil"></scan>
             </a>
@@ -209,15 +216,22 @@
             <a href="#" class=>
                 <scan class="glyphicon glyphicon-align-justify"></scan>
             </a>
+            </div>
+            </div>
+
+
+
 
             <h3>License Agreement:</h3>
+            <div class="form-field">
             <label class="radio-inline">
                 <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
             </label>
             <label class="radio-inline">
                 <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
             </label>
-            <a href="#" class=>
+            <div class="nav-icon">
+                <a href="#" class=>
                 <scan class="glyphicon glyphicon-pencil"></scan>
             </a>
             <a href="#" class=>
@@ -229,6 +243,22 @@
             <a href="#" class=>
                 <scan class="glyphicon glyphicon-align-justify"></scan>
             </a>
+            </div>
+            </div>
+
+            <h3>Add New Field</h3>
+
+            <form action="forms.html" class="form-field">
+                <select id="addnewfield" class="form-control">
+                    <option>Single Line Text</option>
+                </select>
+                <div class="nav-icon">
+                    <a href="#" class=>
+                        <scan class="glyphicon glyphicon-plus"></scan>
+                    </a>
+                </div>
+
+            </form>
 
 
 

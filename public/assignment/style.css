@@ -1,0 +1,10 @@
+.form-field{
+    position:relative;
+}
+
+.nav-icon{
+    padding: 7px 12px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
